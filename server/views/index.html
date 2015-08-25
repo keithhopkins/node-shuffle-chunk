@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+
+  <form method='POST' action='/'>
+    <input name='people' type='number'>
+    <input name='chunk' type='number'>
+    <input type='submit'>
+  </form>
+
+{% endblock %}
